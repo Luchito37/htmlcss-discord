@@ -102,18 +102,20 @@ a{
 }
 
 
-
 .col1{
     width: 228px;
     height: 400px;
-    background-color: #ff9ba4;
 }
 
 .col2{
     width: 175px;
     height: 400px;
-    background-color: #2bdfff;
+    display: flex;
+    flex-direction: column;
+    color: white;
 }
+
+
 
 .foot{
     width: 926px;
@@ -131,5 +133,11 @@ a{
 
 .lilla{
     background-color: rgb(125, 128, 216);
+    color: white;
+}
+
+select{
+    background-color: #181717;
+    border: none;
     color: white;
 }
